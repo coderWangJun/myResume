@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>个人简历作业</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--计算rem-->
+    <script>
+      ~function () {
+        let computed = () => {
+          let html = document.documentElement, htmlW = html.clientWidth, desW = 640;
+          html.style.fontSize = htmlW >= desW ? "100px" : htmlW / desW * 100 + 'px';
+        };
+        window.onload = window.onresize = computed;
+      }();
+
+    </script>
+</head>
+<body>
+<div class="main">
+    <div class="music"></div>
+    <div class="swiper-container">
+        <div class="music">
+            <audio src="audio/dream.mp3" loop preload="none" id="beyond"></audio>
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="package">
+                    <p>个人简历</p>
+                    <p>Web工程师</p>
+                </div>
+                <div class="glasses"></div>
+                <div class="stamp"></div>
+                <div class="arrow">
+                    👇
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="clip"></div>
+                <div class="clip1"></div>
+                <p class="info">基本信息</p>
+                <div class="card-front">
+                    <p><span>name</span>汪某人</p>
+                    <p><span>gender</span>男</p>
+                    <p><span>birth</span>1995年11月</p>
+                    <p><span>native</span>北京</p>
+                    <p><span>education</span>硕士在读</p>
+                </div>
+                <div class="card-back">
+                    <p><span>university</span>清华大学</p>
+                    <p><span>major</span>计算机网络</p>
+                    <p><span>phone</span>66666666666</p>
+                    <p><span>email</span>123456789@qq.com</p>
+                </div>
+                <div class="arrow">
+                    👇
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="letter">
+                    <div class="pencil"></div>
+                    <div class="shaw"></div>
+                    <div class="exper">
+                        <p>工作经验</p>
+                        <p><span>公司</span>还在找</p>
+                        <p><span>职位</span>前端工程师</p>
+                    </div>
+                    <div class="obj1">
+                        <p>项目经验</p>
+                        <p>项目一</p>
+                        <p>百度在线</p>
+                    </div>
+                    <div class="obj2">
+                        <p>项目二</p>
+                        <p>饿了么</p>
+                    </div>
+                </div>
+                <div class="arrow">
+                    👇
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="board">
+                    <div class="skills">
+                        <div>主要技能</div>
+                        <p>HTML+CSS</p>
+                        <p>JavaScript</p>
+                        <p>JQuery</p>
+                        <p>Vue</p>
+                        <p>React</p>
+                        <p>Node</p>
+                    </div>
+                    <div class="evaluation">
+                        <p>岗位职责：</p>
+                        <p>1、负责公司项目的前端页面制作及页面维护；
+                            2、与后台程序配合，高效率高质量地完成前端页面的实现工作与数据交互开发工作；
+                            3、配合需求，分析并给出最优的前台技术解决方案；
+                            3、能提供完善的 WebApp 技术方案，了解 native 移动应用开发；
+                            4. 负责WEB平台及移动端日常推广物料设计；
+                            5.配合项目需求以及测试，高质量地完成项目。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/swiper.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
